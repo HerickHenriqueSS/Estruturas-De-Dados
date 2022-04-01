@@ -1,7 +1,7 @@
 public class Principal {
     public static void main(String[] args) {
 
-        Pilha<String> pilha = new Pilha<>();
+        Pilha<String> pilha = new Pilha<>(3);
 
         System.out.println("Pilha");
         pilha.empilhar("A");
@@ -11,7 +11,10 @@ public class Principal {
         pilha.empilhar("E");
         pilha.empilhar("F");
         System.out.println(pilha.topo());
-        System.out.println(pilha);
+        System.out.println("O elemento removido da pilha foi: " + pilha.desempilhar());
+        System.out.println(pilha.topo());
+        pilha.empilhar("Z");
+        System.out.println(pilha.toString());
     }
 
 }
