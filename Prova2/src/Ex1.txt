@@ -1,0 +1,5 @@
+Lista e uma estrutura que voce pode adicionar elementos um um na frente do outro ou de forma desordenada, e pode retirar um ou mais elementos de qualquer lugar dela.
+
+Fila e uma estrutura que voce pode adicionar algum elemento apenas no final dela, não pode adicionar em qualquer posição, e pode retirar elementos apenas do incio.
+
+Pilha e uma estrutura que voce pode adicionar elementos apenas no topo dela, e pode retirar apenas do topo.
